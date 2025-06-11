@@ -1,16 +1,13 @@
-import java.util.*;
 public class Booking {
-    int bookingId, customerId, pickupPoint, dropPoint, amount;
-    char from, to;
-
-    public Booking(int bookingId, int customerId, char from, char to, int pickupPoint, int dropPoint, int amount) {
-        this.bookingId = bookingId;
-        this.customerId = customerId;
+    int BookingId , CustomerId,PickupTime,DropTime,Amount;
+    char from,to;
+    public Booking(int BookingId , int CustomerId,char from,char to , int PickupTime , int DropTime, int Amount){
+        this.BookingId = BookingId;
+        this.CustomerId = CustomerId;
         this.from = from;
         this.to = to;
-        this.pickupPoint = pickupPoint;
-        this.dropPoint = dropPoint;
-        this.amount = amount;
+        this.PickupTime = PickupTime;
+        this.DropTime = DropTime;
+        this.Amount = Amount;
     }
 }
-
